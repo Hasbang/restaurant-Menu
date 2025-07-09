@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    color: #333;
+}
+header{ 
+    background: #e63946;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#menu-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.menu-item{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    background: #fff;
+}

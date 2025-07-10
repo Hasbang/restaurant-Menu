@@ -1,0 +1,98 @@
+{
+    "restaurant": "Things & Somethings (T&S)",
+    "sections": [
+      {
+        "name": "Starters",
+        "items": [
+          { "name": "Vegetable soup",        "price": 150 },
+          { "name": "Lemon and herb wings",  "price": 115 },
+          { "name": "Mina explosion",        "price": 115 },
+          { "name": "Garlic tapalapa",       "price": 70  }
+        ]
+      },
+      {
+        "name": "Main",
+        "items": [
+          { "name": "Cassava leaves",   "price": 150 },
+          { "name": "Potato leaves",    "price": 120 },
+          { "name": "Beans with oil",   "price": 120 },
+          { "name": "Groundnut stew",   "price": 150 },
+          { "name": "Curry goat",       "price": 240 },
+          { "name": "Curry chicken",    "price": 160 }
+        ]
+      },
+      {
+        "name": "Grilled",
+        "items": [
+          { "name": "Grilled fish",      "price": 180 },
+          { "name": "Grilled chicken",   "price": 120 },
+          { "name": "Grilled wings",     "price": 100 },
+          { "name": "Jerk chicken",      "price": 1150 },
+          { "name": "Fried chicken",     "price": 100 },
+          { "name": "Fried wings",       "price": 100 },
+          { "name": "Fried fish",        "price": "150‑300" }
+        ]
+      },
+      {
+        "name": "Friday Special",
+        "items": [
+          { "name": "Cassava bread & fry fish", "price": "150‑300" },
+          { "name": "Country for half",         "price": null }
+        ]
+      },
+      {
+        "name": "Sat Special",
+        "items": [
+          { "name": "Foofoo served with obiata", "price": 180 },
+          { "name": "Sawasawa, okra",            "price": 180 },
+          { "name": "Seafood boil",              "price": 620 }
+        ]
+      },
+      {
+        "name": "Sides",
+        "items": [
+          { "name": "Yam chips",          "price": 70 },
+          { "name": "Sweet potato chips", "price": 70 },
+          { "name": "French fries",       "price": 70 },
+          { "name": "Plain white rice",   "price": 55 },
+          { "name": "Plantain",           "price": 80 },
+          { "name": "Fried Rice",         "price": 85 }
+        ]
+      },
+      {
+        "name": "Subs",
+        "items": [
+          { "name": "Chicken mayo tapalapa",    "price": 100 },
+          { "name": "Meatball tapalapa",        "price": 140 },
+          { "name": "Cheese & tomato tapalapa", "price": 80  },
+          { "name": "Shawarma (chicken)",       "price": 100 },
+          { "name": "Shawarma (beef)",          "price": 120 },
+          { "name": "Suya Sub",                 "price": 200 },
+          { "name": "Suya Fried Rice",          "price": 220 },
+          { "name": "Escovitch Fish",           "price": "180‑350" }
+        ]
+      },
+      {
+        "name": "Juice",
+        "items": [
+          { "name": "Njilo",           "price": null },
+          { "name": "Raheem",          "price": null },
+          { "name": "Di Don",          "price": null },
+          { "name": "Musu",            "price": null },
+          { "name": "Ridi – Baobab",   "price": null },
+          { "name": "Raziq",           "price": null },
+          { "name": "Can soft",        "price": null },
+          { "name": "Maltina",         "price": null }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "items": [
+          { "name": "Soursop sorbet",  "price": null },
+          { "name": "Seasonal fruits", "price": null },
+          { "name": "Banana bread",    "price": null }
+        ]
+      }
+    ]
+  }
+  

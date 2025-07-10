@@ -28,3 +28,63 @@ header{
 .menu-item h3{
     margin-top: 0;
 }
+
+/* Sections */
+.menu-section { margin-block: 2rem; }
+.menu-section h2 {
+  background:#e63946;
+  color:#fff;
+  padding:.5rem 1rem;
+  border-radius:6px;
+  font-size:1.25rem;
+}
+/* Items */
+.menu-items { list-style:none; padding:0; margin:0; }
+.menu-item {
+  display:flex; justify-content:space-between;
+  padding:.4rem 0; border-bottom:1px solid #eee;
+}
+.price { font-weight:600; }
+@media (max-width:480px) {           /* tiny screens */
+  .menu-item { flex-direction:column; }
+  .price     { align-self:flex-end; }
+}
+/* Item card */
+.menu-item {
+    display: flex;
+    gap: .75rem;                 /* space between img & text */
+    border-bottom: 1px solid #eee;
+    padding: .6rem 0;
+    align-items: flex-start;
+  }
+  
+  /* Thumbnail */
+  .menu-item img {
+    width: 80px;                 /* adjust to taste */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  
+  .menu-item .info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 480px) {
+    .menu-item {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 160px;
+    }
+    .menu-item .price {
+      align-self: flex-end;
+    }
+  }
+  
